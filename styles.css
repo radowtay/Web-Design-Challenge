@@ -53,6 +53,11 @@ nav {
   background-color:honeydew !important;
   border-radius: 10px;
 }
+.container-md{
+  padding: 5rem;
+  background-color:honeydew !important;
+  border-radius: 10px;
+}
 section{
   background-color:rgb(195, 222, 222);
 }
@@ -92,6 +97,13 @@ div {
     margin-top: 15px;
     font-size: 20px;
     text-align: center;
+    color: rgb(30, 151, 121);
+  }
+  .vr{
+    border-radius:50rem;
+    background-color:rgb(195, 222, 222);
+    padding: 1.7rem
+
   }
 
   /* All img tags */
@@ -101,18 +113,19 @@ div {
       When you use the "auto" rule on both left and right margins, 
       your browser will do the math necessary to center a block element.
       */
-    margin-left: auto;
-    margin-right: auto;
+    padding: 5rem;
+    size: 12px;
+    /* margin-left: auto;
+    margin-right: auto; */
     /* Block display (more on this later) */
-    display: block;
+    /* display: block; */
   }
 
   /* All p tags */
   p {
-    text-align: center;
+    text-align: left;
     font-size: 20px;
-    /* Bold the text. */
-    font-weight: bold;
+    /* font-weight: bold; */
   }
   /* .lead{
     color:rgb(30, 151, 121);
