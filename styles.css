@@ -8,7 +8,33 @@
   <title>Basic CSS Example</title>
 <style>
 
-.navbar {
+nav-link{
+    /* text-decoration: none; */
+    /* text-decoration-line: none; */
+    display: inline-block;
+    font-size:small;
+
+}
+
+.navbar-light{
+  background-color:honeydew;
+}
+.navbar-brand {
+  padding: 0.4rem !important;
+  background-color: rgb(30, 151, 121) !important;
+  border-radius: 5px;
+  color: white !important;
+}
+navbar-toggler{
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+nav {
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -19,10 +45,23 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0.5rem 1rem;
-}
+    /* text-decoration: none; */
 
+}
+.container{
+  padding: 5rem;
+  background-color:honeydew !important;
+  border-radius: 10px;
+}
+section{
+  background-color:rgb(195, 222, 222);
+}
+.display-4{
+  font-size: 34px;
+}
 div {
-    display: block;
+    /* display: block; */
+    /* text-decoration: none; */
 }
 
   /* h1 heading tag */
@@ -32,13 +71,11 @@ div {
     /* Change the size of your font to 60 pixels high. */
     font-size: 60px;
     /* This will color the heading font white. */
-    color: white;
+    color: rgb(30, 151, 121);
     /* Align the text to the center of its enclosing element (e.g. div). */
     text-align: center;
-    /* Underline the text. */
-    text-decoration: underline;
-    /* The background of the heading element will now be black. */
-    background-color: black;
+    /* font-weight: bold; */
+
   }
 
   /* h2 heading tags */
@@ -77,15 +114,15 @@ div {
     /* Bold the text. */
     font-weight: bold;
   }
+  /* .lead{
+    color:rgb(30, 151, 121);
+    font-weight: bold;
+  } */
 
   /* All unordered list tags */
   ul {
     text-align: center;
-    font-size: 35px;
-    /* Give an element a solid border. */
-    border-style: solid;
-    /* Render the border 5 pixels thick. */
-    border-width: 5px;
+    font-size: 16px;
     /* Include bullets in the content flow. */
     /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
     list-style-position: inside;
