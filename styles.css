@@ -111,9 +111,9 @@ h3 {
   padding: .3rem;
 }
 
-img {
-
-
+.inlinemediaobject {
+  border-radius: 50rem;
+  width: 60px;
 }
 
 
