@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 
-<!-- Basic CSS Example -->
 
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Basic CSS Example</title>
+  <title>CSS</title>
 <style>
 
 nav-link{
-    /* text-decoration: none; */
-    /* text-decoration-line: none; */
     display: inline-block;
     font-size:small;
-
 }
 
 .navbar-light{
@@ -29,7 +25,7 @@ navbar-toggler{
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: transparent;
+  background-color: honeydew;
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
@@ -45,8 +41,6 @@ nav {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0.5rem 1rem;
-    /* text-decoration: none; */
-
 }
 .container{
   padding: 5rem;
@@ -54,9 +48,11 @@ nav {
   border-radius: 10px;
 }
 .container-md{
-  padding: 5rem;
+  display: flex;
+  padding: .7rem;
   background-color:honeydew !important;
   border-radius: 10px;
+  max-height: max-content;
 }
 section{
   background-color:rgb(195, 222, 222);
@@ -64,81 +60,92 @@ section{
 .display-4{
   font-size: 34px;
 }
-div {
-    /* display: block; */
-    /* text-decoration: none; */
+
+.thumbnail{
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  size: 12px;
+}
+.row{
+  display:flex;
+  flex-wrap: wrap;
+}
+.column{
+  flex: 50%;
+}
+.table{
+
 }
 
-  /* h1 heading tag */
-  h1 {
-    /* Put a 15-pixel margin at the bottom of the heading. */
-    margin-bottom: 15px;
-    /* Change the size of your font to 60 pixels high. */
-    font-size: 60px;
-    /* This will color the heading font white. */
-    color: rgb(30, 151, 121);
-    /* Align the text to the center of its enclosing element (e.g. div). */
-    text-align: center;
-    /* font-weight: bold; */
+h1 {
+  margin-bottom: 15px;
+  font-size: 60px;
+  color: rgb(30, 151, 121);
+  text-align: center;
 
+}
+
+h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(30, 151, 121);
+}
+
+.vr{
+  border-radius:50rem;
+  background-color:rgb(195, 222, 222);
+  padding: 1.7rem
+}
+
+.table{
+  padding: .3rem;
+}
+
+img {
+
+
+}
+
+
+p {
+  text-align: left;
+  font-size: 20px;
+}
+
+ul {
+  text-align: center;
+  font-size: 16px;
+  list-style-position: inside;
+}
+
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
   }
 
-  /* h2 heading tags */
-  h2 {
-    /* Put a 15-pixel margin at the top of all h2 headings. */
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 40px;
-    text-align: center;
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
   }
 
-  /* h3 heading tags */
-  h3 {
-    margin-top: 15px;
-    font-size: 20px;
-    text-align: center;
-    color: rgb(30, 151, 121);
-  }
-  .vr{
-    border-radius:50rem;
-    background-color:rgb(195, 222, 222);
-    padding: 1.7rem
-
+  .navbar ul {
+    visibility: hidden;
   }
 
-  /* All img tags */
-  img {
-    /* 
-      Center a block element in the middle of its enclosing tag.
-      When you use the "auto" rule on both left and right margins, 
-      your browser will do the math necessary to center a block element.
-      */
-    padding: 5rem;
-    size: 12px;
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* Block display (more on this later) */
-    /* display: block; */
+  #nav-select {
+    visibility: visible;
   }
+}
 
-  /* All p tags */
-  p {
-    text-align: left;
-    font-size: 20px;
-    /* font-weight: bold; */
-  }
-  /* .lead{
-    color:rgb(30, 151, 121);
-    font-weight: bold;
-  } */
-
-  /* All unordered list tags */
-  ul {
-    text-align: center;
-    font-size: 16px;
-    /* Include bullets in the content flow. */
-    /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
-    list-style-position: inside;
-  }
 </style>
 </head>
