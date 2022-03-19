@@ -67,6 +67,7 @@ section{
   padding-top: .5rem;
   padding-bottom: .5rem;
   size: 12px;
+  max-width: 100%; height: auto; 
 }
 .row{
   display:flex;
@@ -114,6 +115,7 @@ h3 {
 .images{
   border-radius: 50rem;
   width: 60px;
+  max-width: 100%; height: auto; 
 }
 
 
