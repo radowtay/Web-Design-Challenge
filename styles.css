@@ -46,13 +46,14 @@ nav {
   padding: 5rem;
   background-color:honeydew !important;
   border-radius: 10px;
+  border-color: rgb(195, 222, 222);
 }
 .container-md{
   display: flex;
   padding: .7rem;
   background-color:honeydew !important;
   border-radius: 10px;
-
+  border-color: rgb(195, 222, 222);
 }
 body{
   background-color:rgb(195, 222, 222);
