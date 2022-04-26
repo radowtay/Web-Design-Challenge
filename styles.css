@@ -54,19 +54,23 @@ nav {
   border-radius: 10px;
 
 }
-section{
+body{
   background-color:rgb(195, 222, 222);
+  background-image: url("images/ship-3587946_1920.jpg");
 }
 .display-4{
-  font-size: 34px;
+  font-size: 28px;
 }
 
+.comp-image{
+  size: 10px;
+}
 .thumbnail{
   padding-left: .5rem;
   padding-right: .5rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  size: 12px;
+  size: 10px;
   max-width: 100%; height: auto; 
 }
 .row{
@@ -121,7 +125,7 @@ h3 {
 
 p {
   text-align: left;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 ul {
